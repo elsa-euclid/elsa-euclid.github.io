@@ -1,0 +1,449 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ELSA: Euclid Legacy Science Advanced analysis tools</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-snowflake"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>ELSA: Euclid Legacy Science Advanced analysis tools</h1>
+								<p>A project funded under Horizon Europe to push the boundaries of spectroscopy with the European Space Agency's Euclid space telescope	
+								</p>
+							</div>
+						</div>
+						<nav>
+							<ul>    <!-- For some reason there has to be an odd number of these menu items. -->
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#team">Team</a></li>
+								<li><a href="#1dspectra">1D&nbsp;Spectra</a></li>
+								<li><a href="#2dspectra">2D&nbsp;Spectra</a></li>
+								<li><a href="#machinelearning">Machine&nbsp;Learning</a></li>
+								<li><a href="#citizenscience">Citizen&nbsp;Science</a></li>
+								<!-- li><a href="#internal">Internal</a></li -->
+								<!-- li><a href="#meetings">Meetings</a></li -->
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="images/Euclid_s_journey_to_L2_pillars.jpg" alt="" /></span>
+								<p>Euclid is an ESA space telescope launched in July 2023, designed to understand the nature of dark energy and dark matter. To achieve this, Euclid is observing over a third of the sky with high resolution imaging and spectroscopy, which will establish “the” reference map of the extra-galactic celestial sphere for decades to come. The giant archive produced will be a goldmine to study the history of the formation and growth of galaxies over the age of the Universe, driving answers to many fundamental science questions on the co-evolution of galaxies and supermassive black holes, the interaction between stars, gas, and galactic nuclei in galaxies at cosmic noon, and excelling in the discovery of rare objects including gravitational lenses.</p>
+								<p>However, the richest gold veins are also the most difficult to exploit: the tools developed for Euclid’s primary science will not be enough to open the rich legacy for the astronomical community. We therefore created ELSA to explore new methodologies and create cutting-edge pipelines, tools and algorithms. Our ambitious goal is to push the boundaries of spectroscopic analysis to the limits, uncovering hidden details of even the faintest and rarest galaxies measured by Euclid. We will leverage state of the art machine learning to efficiently handle the high- dimensional data and reveal the underlying physical processes they encode. This will need dedicated computing resources and highly motivated researchers versed in the most advanced techniques, that will work with our team of leading experts in the field of galaxy evolution to reveal the treasures preserved in the Euclid vault. Our machine learning will be supplemented by citizen science, enormously extending the reach of ELSA’s impact. ELSA will be a forge of knowledge and advanced tools that will not be confined within the boundaries of our teams, but shared with the whole scientific community and beyond to foster new projects and unforeseen discoveries.</p>
+								<p>The image above is from <a href=https://www.esa.int/Science_Exploration/Space_Science/Euclid/How_to_follow_the_Euclid_launch_live>ESA's Euclid launch site</a> (copyright ESA - European Space Agency, <a href=https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en>CC BY-SA 3.0 IGO</a>), while the background image for this website is <a href=https://www.esa.int/ESA_Multimedia/Images/2023/11/Euclid_s_view_of_the_Perseus_cluster_of_galaxies>Euclid's early release observations of the Perseus cluster</a> (copyright ESA/Euclid/Euclid Consortium/NASA, image processing by J.-C. Cuillandre (CEA Paris-Saclay), G. Anselmi, <a href=https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en>CC BY-SA 3.0 IGO</a>).</p>
+							</article>
+
+						<!-- Team -->
+							<article id="team">
+								<h2 class="major">Team</h2>
+								<span class="image main"><img src="images/elsa_pert.jpg" alt="" /></span>
+								<p>ELSA's work is distributed into five work packages, shown schematically above. An overarching management work package is led by the Coordinator, <a href=https://www.unibo.it/sitoweb/margherita.talia2/en>Dr. Margherita Talia</a>. The work package on one-dimensional spectra is led by <a href=https://www.oas.inaf.it/en/user/lucia.pozzetti/>Dr. Lucia Pozzetti</a>. Work package 3, on spatially resolved spectra, is led by <a href=http://www.brera.inaf.it/utenti/ben/>Dr. Ben Granett</a>. Our work package on machine learning is led by <a href=https://www.sotiriafotopoulou.com/>Dr. Sotiria Fotopoulou</a>. Finally, our work package on dissemination, engagement and citizen science is led jointly by <a href=https://stephenserjeant.github.io/>Prof. Stephen Serjeant</a> and <a href=https://www.open.ac.uk/people/hjd229>Dr. Hugh Dickinson</a>. More information on these work packages can be found under their dedicated sections on this website.</p>
+
+
+
+                                                                <h3 class="major">List of team members</h3>
+									<!-- h4>Blah</h4 -->
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Institution</th>
+													<th>Role</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td>Viola Allevato</td><td>OAC, INAF, Italy</td><td>Member</td></tr>
+												<tr><td>Jarle Brinchmann</td><td>Univeridade do Porto, Portugal</td><td>Member</td></tr>
+												<tr><td>Emanuele Daddi</td><td>CEA, France</td><td>Member</td></tr>
+												<tr><td>Gabriella De Lucia</td><td>INAF, Italy</td><td>Member</td></tr>
+												<tr><td>Hugh Dickinson</td><td>The Open University, UK</td><td>WP5 lead</td></tr>
+												<tr><td>Sotiria Fotopoulou</td><td>University of Bristol, UK</td><td>WP4 lead</td></tr>
+												<tr><td>Ben Granett</td><td>OA-Brera, INAF, Italy</td><td>WP3 lead</td></tr>
+												<tr><td>Lucia Pozzetti</td><td>OAS, INAF, Italy</td><td>WP2 lead</td></tr>
+												<tr><td>Marco Scodeggio</td><td>INAF, Italy</td><td>Member</td></tr>
+												<tr><td>Stephen Serjeant</td><td>The Open University, UK</td><td>WP5 lead</td></tr>
+												<tr><td>Margherita Talia</td><td>Universit&agrave; di Bologna, Italy</td><td>Coordinator</td></tr>
+											</tbody>
+										</table>
+									</div>
+
+
+
+							</article>
+
+						<!-- 1D Spectra -->
+							<article id="1dspectra">
+								<h2 class="major">1D Spectra</h2>
+								<span class="image main"><img src="images/aa46177-23-fig7.jpg" alt="" /></span>
+								<p>The objective of the 1D Spectra work package will be to develop specific analysis tools, outside of the standard official Euclid pipeline, that will be able to handle thousands to millions of spectra, for an optimal and thorough exploitation of the Euclid spectroscopic galaxy surveys for both cosmological and galaxy evolution studies (i.e., studies of intermediate-high redshift scaling relations). We plan to apply the widely used approach of "spectral stacking" to boost the overall S/N ratio of a homogeneously chosen sample of galaxy spectra. The resulting stacked spectrum allows for the detection of spectral characteristics and continuum that are weaker than the instrument sensitivity due to the constructive interference between distinct spectra's signals and the incoherent addition of noise. Further, we plan to extract a wide range of physical parameters, such as star formation history, dust emission, and metallicity developing and using codes, besides the official Euclid pipeline, that combine photometry and spectroscopy. This allows for a more thorough understanding of the physical and chemical characteristics of observed objects.</p>
+								<p>The image above is from <a href=https://www.aanda.org/articles/aa/full_html/2023/08/aa46177-23/aa46177-23.html>Gabarra et al. 2023</a>.</p>
+							</article>
+
+						<!-- 2D Spectra -->
+							<article id="2dspectra">
+								<h2 class="major">2D Spectra</h2>
+								<span class="image main"><img src="images/apjs430415f6_lr.jpg" alt="" /></span>
+								<p>The objective of the advanced two-dimensional spectroscopy work package is to enable advanced analyses of the NISP 2D slitless spectroscopy dataset in the Euclid Deep fields by providing tools and reduced data products to the project and to the scientific community. The new tools developed by this work package will produce value-added data products that will be made available to the community.</p>
+								<p>The image above is an example of slitless spectroscopy with HST, from <a href=https://iopscience.iop.org/article/10.1088/0067-0049/200/2/13>Brammer et al. 2012</a>.</p>
+							</article>
+
+						<!-- Machine Learning -->
+							<article id="machinelearning">
+								<h2 class="major">Machine Learning</h2>
+								<span class="image main"><img src="images/elsa_ml.jpg" alt="" /></span>
+								<p>The objectives of the machine learning work package focus on delivering machine-learning models that capture the information content (unsupervised methods & outlier analysis) of the Euclid dataset, and methods that will deliver physical parameters in a robust, and time-efficient manner (morphology, star formation rates). We will deliver a visualisation dashboard that gathers heterogeneous data stored in the Euclid and other archives for maximal exploitation of the data.</p>
+								<p>The image above is an illustration of the relative performance on a clump detection task of our Zoobot-based Faster RCNN models (3rd and 5th columns) relative to a model that has an identical architecture, but has a backbone trained on the well-known Imagenet library of terrestrial images (2nd and 4th columns). The first column shows the aggregated annotations for the same galaxies that were provided by volunteers via the Galaxy Zoo: Clump Scout citizen science project. Our Zoobot-based models recover more clump locations and more accurately match the annotations provided by citizen scientists. The first three columns show images from the SDSS survey. These are similar to the data used to train our model, although they were not part of the actual training set. The 4th and 5th columns show images from the Hyper-SuprimeCam (HSC) legacy survey. The Imagenet-backed Faster RCNN model performs poorly on HSC data. Although Zoobot has been trained as a classifier using HSC data, our Faster RCNN model was not. Using Zoobot as a backbone lends our model the flexibility it needs to perform well when applied to data from a different survey without retraining.</p>
+							</article>
+
+						<!-- Citizen Science -->
+							<article id="citizenscience">
+								<h2 class="major">Citizen Science</h2>
+								<span class="image main"><img src="images/elsa_cit_sci.jpg" alt="" /></span>
+								<p>The objectives of the work package on dissemination, engagement and citizen science are both one-way information dissemination to all our stakeholder communities (in common with typical Horizon project communication work packages) in order to execute our communication and engagement strategy, and a more innovative and research-driven two-way engagement, dialogue and debate in particular with the science-inclined public through the medium of crowdsourced data mining (i.e. citizen science).</p>
+								<p>The image above shows a direct image (left) and dispersed spectrum (right) of an example galaxy from the HST WISP survey, as presented to citizen science volunteers. The white arrow shows the bright light produced by an emission line. Image Credit: Vihang Mehta.</p>
+							</article>
+
+							
+						<!-- Internal -->
+							<article id="internal">
+								<h2 class="major">Internal</h2>
+								<span class="image main"><img src="images/elsa_cit_sci.jpg" alt="" /></span>
+								<p>Within the <a href=https://euclidconsortium.slack.com/>Euclid consortium official Slack workspace</a>, the project can be contacted in the #swg-legacy-elsa channel.</p>
+                                                                <p>Other internal Euclid resources can be found at the <a href=https://www.euclid-ec.org/consortium/quickstart-guide/>Euclid Quick Start Guide.</a></p>
+							</article>
+
+						<!-- Meetings -->
+							<article id="meetings">
+								<h2 class="major">Meetings</h2>
+								<span class="image main"><img src="images/elsa_cit_sci.jpg" alt="" /></span>
+								<p>Links to ELSA meetings and workshops (initially internal to ELSA) will be listed here.</p>
+							</article>
+
+
+							<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<!-- <form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form> -->
+								<p>Links to ELSA meetings and workshops (initially internal to ELSA) will be listed here.</p>
+								<p>Within the <a href=https://euclidconsortium.slack.com/>Euclid consortium official Slack workspace</a>, the project can be contacted in the #swg-legacy-elsa channel.</p>
+                                                                <p>Other internal Euclid resources can be found at the <a href=https://www.euclid-ec.org/consortium/quickstart-guide/>Euclid Quick Start Guide.</a></p>
+								<p>Public contact details for the work package leaders (if available) are available on their personal webpages, for which links are available under the Team tab.</p>
+                                                                <p>Social media: <a href="#">Bluesky</a>, <a href="#">Mastodon</a>, <a href="#">Threads</a>, <a href="#">Github</a></p> 
+
+                                                                <!-- <ul class="icons">
+									<li><a href="#" class="icon brands fa-cloud"><span class="label">Bluesky</span></a></li>
+									<li><a href="#" class="icon brands fa-mastodon"><span class="label">Mastodon</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Threads</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul> -->
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+<!-- EC acknowledgement image from https://ec.europa.eu/regional_policy/information-sources/logo-download-center_en -->
+<footer id="footer">
+					  <p class="copyright"><span><img src="images/EN_Co-fundedbytheEU_RGB_NEG.png" alt="/" width="10%" height="10%"></p><p class="copyright">"ELSA: Euclid Legacy Science Advanced analysis tools" has received funding from the European Union’s Horizon Europe research and innovation programme under Grant Agreement no. 101135203. UK participation is funded through the UK Horizon guarantee scheme under Innovate UK grant 10093177. Background image is <a href=https://www.esa.int/ESA_Multimedia/Images/2023/11/Euclid_s_view_of_the_Perseus_cluster_of_galaxies>Euclid's early release observations of the Perseus cluster</a> (&copy; ESA/Euclid/Euclid Consortium/NASA, image processing by J.-C. Cuillandre (CEA Paris-Saclay), G. Anselmi, <a href=https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en>CC BY-SA 3.0 IGO</a>).</span></p> 
+					  <p class="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a> (<a href=https://html5up.net/license>CC-BY 3.0</a>).</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
