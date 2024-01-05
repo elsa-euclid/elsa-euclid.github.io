@@ -2,11 +2,9 @@
 
  * Work packages can edit / update their sections as convenient
  * Only an odd number of menu items work for some reason. To fix?
- * It will be useful to add News and Internal menu items when there 
-   is enough content for them. 
+ * It will be useful to add News and Internal menu items when there is enough content for them. 
  * The EU logo icon looks very small in mobile mode - fix?
- * FontAwesome package version used here doesn't have Bluesky or Threads 
-   icons - update and fix so the contact tab can have a set of icons?
+ * FontAwesome package version used here doesn't have Bluesky or Threads icons - update and fix so the contact tab can have a set of icons?
 
 
 
