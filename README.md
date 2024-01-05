@@ -12,8 +12,7 @@
 
 ***
 
-## ORIGINAL README FILE:
-
+## Original README file
 
     Dimension by HTML5 UP
     html5up.net | @ajlkn
