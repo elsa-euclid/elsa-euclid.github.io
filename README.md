@@ -1,4 +1,4 @@
-ELSA website - to do list 
+## ELSA website - to do list 
 
  * Work packages can edit / update their sections as convenient
  * Only an odd number of menu items work for some reason. To fix?
@@ -10,8 +10,9 @@ ELSA website - to do list
 
 
 
-=====================================================================================
-ORIGINAL README FILE:
+***
+
+## ORIGINAL README FILE:
 
 
 Dimension by HTML5 UP
