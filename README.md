@@ -6,7 +6,7 @@
  * FontAwesome package version used here doesn't have Bluesky or Threads icons - update and fix so the contact tab can have a set of icons?
 
 Done:
- * Add links to social media accounts and pages: https://bsky.app/profile/elsa-euclid.bsky.social , https://twitter.com/elsa_euclid , https://www.linkedin.com/company/elsa-euclid , https://astrodon.social/@elsa_euclid _Done, with Twitter added too._ 
+ * Add links to social media accounts and pages: https://bsky.app/profile/elsa-euclid.bsky.social , https://twitter.com/elsa_euclid , https://www.linkedin.com/company/elsa-euclid , https://astrodon.social/@elsa_euclid _Done._ 
  * It will be useful to add News and Internal menu items when there is enough content for them. _Now has Internal and Meetings tabs_
 
 
